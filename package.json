@@ -1,0 +1,29 @@
+{
+  "name": "gemini-video-manager",
+  "version": "1.0.0",
+  "description": "Aplikasi Web Pengelola Pembuatan Video Gemini Web",
+  "private": true,
+  "scripts": {
+    "migrate": "node backend/dist/database/migrate.js",
+    "backend:dev": "npm --prefix backend run dev",
+    "backend:build": "npm --prefix backend run build",
+    "backend:start": "npm --prefix backend start",
+    "backend:test": "npm --prefix backend test",
+    "create:admin": "npm --prefix backend run create:admin",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build",
+    "frontend:preview": "npm --prefix frontend run preview"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "keywords": [
+    "gemini",
+    "video",
+    "automation",
+    "playwright",
+    "queue"
+  ],
+  "author": "",
+  "license": "ISC"
+}

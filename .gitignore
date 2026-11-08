@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment Configuration
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!.env.example
+!frontend/.env.example
+!backend/.env.example
+
+# Build Outputs
+dist/
+dist-electron/
+build/
+frontend/dist/
+backend/dist/
+
+# Logs & Debugging
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data & Persistent Storage
+storage/uploads/*
+storage/videos/*
+storage/thumbnails/*
+storage/outputs/*
+!storage/uploads/.gitkeep
+!storage/videos/.gitkeep
+!storage/thumbnails/.gitkeep
+!storage/outputs/.gitkeep
+
+# Browser Automation & Profiles
+browser-profiles/*
+!browser-profiles/.gitkeep
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# Backups & Database dumps (jangan exclude migration SQL di database/migrations/)
+*.sql.gz
+*.bak
+backups/
+gvm_backups*/
+*.sql_dump
+database_backup*.sql
+
+# System Files
+.DS_Store
+Thumbs.db
+
